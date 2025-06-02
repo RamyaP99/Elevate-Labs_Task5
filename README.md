@@ -47,33 +47,35 @@ Age & Fare Distribution
          Fare: Highly right-skewed with a peak at low values.
 
 Age and Fare by Class
-           Age:
 
-                1st Class: Median = 37
-                3rd Class: Median = 25
+          Age:
 
-            Fare:
+               1st Class: Median = 37
+               3rd Class: Median = 25
 
-                  1st Class: Median = $60
-                  3rd Class: Median = $8
+          Fare:
+
+               1st Class: Median = $60
+               3rd Class: Median = $8
 
 Survival Insights
-              Sex:
 
-                   Females: 74% survival rate
-                   Males: 19% survival rate
+          Sex:
 
-              Class:
+               Females: 74% survival rate
+               Males: 19% survival rate
 
-                    1st Class: 63% survived
-                    2nd Class: 47% survived
-                    3rd Class: 24% survived
+          Class:
 
-              Embarked Port:
+               1st Class: 63% survived
+               2nd Class: 47% survived
+               3rd Class: 24% survived
 
-                     Cherbourg: 55% survived
-                     Queenstown: 39% survived
-                     Southampton: 34% survived
+          Embarked Port:
+
+               Cherbourg: 55% survived
+               Queenstown: 39% survived
+               Southampton: 34% survived
 
 Pairwise Relationships
             
@@ -83,7 +85,7 @@ Pairwise Relationships
 
 #### Correlation Highlights
 
-                 Pair	         Correlation
-                 Pclass vs Fare	    -0.55
-                 Survived vs Fare	 +0.26
-                 Pclass vs Survived	 -0.34
+              Pair	                 Correlation
+              Pclass vs Fare	         -0.55
+              Survived vs Fare	 +0.26
+              Pclass vs Survived	 -0.34
