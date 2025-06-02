@@ -84,6 +84,6 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
 Correlation Highlights
 
                     Pair	          Correlation
-                    Pclass vs Fare	-0.55
-                    Survived vs Fare	+0.26
-                    Pclass vs Survived	-0.34
+                    Pclass vs Fare	 -0.55
+                    Survived vs Fare	 +0.26
+                    Pclass vs Survived	 -0.34
