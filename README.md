@@ -16,11 +16,11 @@ Cabin: 687 missing (≈77%)
 Embarked: 2 missing (≈0.2%)
 
 #### Data Preprocessing
-Dropped Cabin due to excessive missing data.
+Dropped **Cabin** due to excessive missing data.
 
-Filled missing Age values with median (28).
+Filled missing **Age** values with median (28).
 
-Filled missing Embarked values with mode ('S').
+Filled missing **Embarked** values with mode ('S').
 
 #### Statistical Summary
 Survival Rate: 38.4% survived, 61.6% did not.
@@ -40,13 +40,13 @@ Age: Mean = 29.7, Median = 28, Range = 0.42–80.
 Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
 
 #### Visual Analysis:
-Age & Fare Distribution
+**Age & Fare Distribution**
      
          Age: Right-skewed; most passengers between 20–40 years.
 
          Fare: Highly right-skewed with a peak at low values.
 
-Age and Fare by Class
+**Age and Fare by Class**
 
           Age:
 
@@ -58,7 +58,7 @@ Age and Fare by Class
                1st Class: Median = $60
                3rd Class: Median = $8
 
-Survival Insights
+**Survival Insights**
 
           Sex:
 
@@ -77,7 +77,7 @@ Survival Insights
                Queenstown: 39% survived
                Southampton: 34% survived
 
-Pairwise Relationships
+**Pairwise Relationships**
             
          Higher Fare correlates with survival.
              
@@ -86,6 +86,32 @@ Pairwise Relationships
 #### Correlation Highlights
 
               Pair	                 Correlation
-              Pclass vs Fare	      -0.55
+              Pclass vs Fare	    -0.55
               Survived vs Fare	 +0.26
               Pclass vs Survived	 -0.34
+
+#### Summary of Findings
+**Survival Patterns:**
+
+Higher survival for females, 1st class, and Cherbourg passengers.
+
+Likely influenced by lifeboat policies and boarding priorities.
+
+**Age & Fare:**
+
+Younger passengers and those who paid higher fares (1st class) had better survival odds.
+
+**Family Size:**
+
+Small families (1–2 members) had better outcomes than solo travelers or large families.
+
+**Anomalies:**
+
+Outliers like Fare = $512
+
+Missing values in Age and Cabin
+
+**Trends:**
+
+Clear survival advantages tied to class, gender, and fare amount
+
