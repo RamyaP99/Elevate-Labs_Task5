@@ -40,13 +40,13 @@ Age: Mean = 29.7, Median = 28, Range = 0.42–80.
 Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
 
 #### Visual Analysis:
-     Age & Fare Distribution
+Age & Fare Distribution
      
          Age: Right-skewed; most passengers between 20–40 years.
 
          Fare: Highly right-skewed with a peak at low values.
 
-      Age and Fare by Class
+Age and Fare by Class
            Age:
 
                 1st Class: Median = 37
@@ -57,7 +57,7 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
                   1st Class: Median = $60
                   3rd Class: Median = $8
 
-        Survival Insights
+Survival Insights
               Sex:
 
                    Females: 74% survival rate
@@ -75,15 +75,15 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
                      Queenstown: 39% survived
                      Southampton: 34% survived
 
-          Pairwise Relationships
+Pairwise Relationships
             
-             Higher Fare correlates with survival.
+         Higher Fare correlates with survival.
              
-             Small family size (1–2 SibSp/Parch) improves odds.
+         Small family size (1–2 SibSp/Parch) improves odds.
 
 #### Correlation Highlights
 
-                 Pair	           Correlation
-                 Pclass vs Fare	       -0.55
-                 Survived vs Fare	+0.26
-                 Pclass vs Survived	-0.34
+                 Pair	         Correlation
+                 Pclass vs Fare	    -0.55
+                 Survived vs Fare	 +0.26
+                 Pclass vs Survived	 -0.34
