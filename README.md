@@ -5,6 +5,7 @@ This project performs an Exploratory Data Analysis (EDA) on the Titanic training
 #### Dataset
 
 The Titanic dataset (train.csv) contains 891 passenger records with features: PassengerId, Survived (0=No, 1=Yes), Pclass (1/2/3), Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked (C/Q/S).
+
 source: https://www.kaggle.com/c/titanic/data?select=train.csv&utm_source=chatgpt.com
 
 ##### Missing Values:
@@ -49,39 +50,33 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
            Age:
 
                 1st Class: Median = 37
-
-                 3rd Class: Median = 25
+                3rd Class: Median = 25
 
             Fare:
 
                   1st Class: Median = $60
-
-                   3rd Class: Median = $8
+                  3rd Class: Median = $8
 
         Survival Insights
               Sex:
 
                    Females: 74% survival rate
-
-                    Males: 19% survival rate
+                   Males: 19% survival rate
 
               Class:
 
                     1st Class: 63% survived
-
                     2nd Class: 47% survived
-
                     3rd Class: 24% survived
 
               Embarked Port:
 
                      Cherbourg: 55% survived
-
-                      Queenstown: 39% survived
-
-                      Southampton: 34% survived
+                     Queenstown: 39% survived
+                     Southampton: 34% survived
 
           Pairwise Relationships
+            
              Higher Fare correlates with survival.
-
-              Small family size (1–2 SibSp/Parch) improves odds.
+             
+             Small family size (1–2 SibSp/Parch) improves odds.
