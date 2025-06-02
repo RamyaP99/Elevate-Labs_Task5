@@ -86,6 +86,6 @@ Pairwise Relationships
 #### Correlation Highlights
 
               Pair	                 Correlation
-              Pclass vs Fare	         -0.55
+              Pclass vs Fare	      -0.55
               Survived vs Fare	 +0.26
               Pclass vs Survived	 -0.34
