@@ -81,9 +81,9 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
              
              Small family size (1–2 SibSp/Parch) improves odds.
 
-Correlation Highlights
+#### Correlation Highlights
 
                     Pair	          Correlation
-                    Pclass vs Fare	    -0.55
+                    Pclass vs Fare	       -0.55
                     Survived vs Fare	+0.26
                     Pclass vs Survived	-0.34
