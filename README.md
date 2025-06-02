@@ -79,7 +79,7 @@ Fare: Mean = $32.20, Median = $14.50, Max = $512 (highly skewed)
 
 **Pairwise Relationships**
 
-Pairplot: Used to explore relationships among numerical features (Age, Fare, SibSp, Parch, FamilySize, Survived) and identify how these features interact with survival. For example, it helps reveal whether higher fares are associated with survival.
+Pairplot: Used to explore relationships among numerical features (Age, Fare, SibSp, Parch, Survived) and identify how these features interact with survival. For example, it helps reveal whether higher fares are associated with survival.
 
          Higher Fare correlates with survival.
              
@@ -87,7 +87,7 @@ Pairplot: Used to explore relationships among numerical features (Age, Fare, Sib
 
 #### Correlation Highlights
 
-Heatmap: Used to quantify correlations between numerical features (Age, Fare, SibSp, Parch, FamilySize, Pclass, Survived), providing a concise summary of linear relationships. For example, it confirms the negative correlation between Pclass and Fare.
+Heatmap: Used to quantify correlations between numerical features (Age, Fare, SibSp, Parch, Pclass, Survived), providing a concise summary of linear relationships. For example, it confirms the negative correlation between Pclass and Fare.
 
               Pair	                 Correlation
               Pclass vs Fare	  -0.55
